@@ -13,8 +13,8 @@ import seaborn as sns
 from sklearn.model_selection import train_test_split  
 from sklearn.preprocessing import OneHotEncoder, StandardScaler  
 from sklearn.linear_model import LinearRegression, LogisticRegression  
-from sklearn.metrics import (
-    confusion_matrix,
+from sklearn.metrics import (  
+    confusion_matrix,  
     mean_absolute_error,
     mean_squared_error,
     r2_score,
