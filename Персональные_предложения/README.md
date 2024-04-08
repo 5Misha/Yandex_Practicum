@@ -7,7 +7,8 @@ https://github.com/5Misha/My-Skills/blob/main/Персональные_пред�
 # Используемые инструменты
 pandas, seaborn, scipy, scikit-learn, numpy  
 kendalltau, ColumnTransformer
-Pipeline, OptunaSearchCV, OneHotEncoder, OrdinalEncoder, StandardScaler, SimpleImputer, MinMaxScaler  
+Pipeline, OptunaSearchCV  
+OneHotEncoder, OrdinalEncoder, StandardScaler, SimpleImputer, MinMaxScaler
 RandomizedSearchCV, DecisionTreeClassifier, LogisticRegression, SVC, KNeighborsClassifier  
 roc_auc_score, accuracy_score, f1_score  
 optuna, optuna-integration, shap
