@@ -7,7 +7,7 @@ https://github.com/5Misha/My-Skills/blob/main/Аренда_самокатов/А
 # Используемые библиотеки
 import os  
 import pandas as pd  
-import numpy as np 
+import numpy as np   
 import scipy.stats as st # эта и ниже библиотеки понадобятся нам ближе к концу
 from scipy.stats import binom, poisson
 from matplotlib import pyplot as plt
