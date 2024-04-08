@@ -13,4 +13,15 @@ import seaborn as sns
 from sklearn.model_selection import train_test_split  
 from sklearn.preprocessing import OneHotEncoder, StandardScaler  
 from sklearn.linear_model import LinearRegression, LogisticRegression  
-from sklearn.metrics import (confusion_matrix, mean_absolute_error, mean_squared_error, r2_score, accuracy_score, recall_score, precision_score)
+from sklearn.metrics import (confusion_matrix, mean_absolute_error, mean_squared_error,
+r2_score, accuracy_score, recall_score, precision_score)
+
+## Основные этапы проекта
+Предобработка данных  
+Исследовательский анализ данных  
+Корреляционный анализ  
+Обучение модели линейной регрессии  
+Обучение модели логистической регрессии  
+
+## Общий вывод
+В данном проекте мы обучили две модели регрессии. Одна линейная, которая предсказывает удой коровы, а вторая - логистическая, предсказывающая вкус молока. Для этого мы сделали предобработку данных, исследовательский анализ, где были построены гистограммы для количественных признаков и круговые диаграммы - для категориальных, корреляционный анализ с помощью Матрицы корреляции Спирмена и  диаграмм рассеяния. При обучении линейной регрессии создали пару новых признаков, которые улучшили метрики модели на тестовой выборке. К сожалению даже это не помогло найти ни одну корову, удовлетворяющую всем желаниям фермера, но мы построили таблицу, по которой можно определить самых лучших коров из всех.
