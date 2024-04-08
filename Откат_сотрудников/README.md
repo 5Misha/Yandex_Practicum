@@ -12,8 +12,13 @@ Pipeline
 OneHotEncoder, OrdinalEncoder, StandardScaler, MinMaxScaler, LabelEncoder  
 ColumnTransformer, SimpleImputer, RandomizedSearchCV  
 Regression, KNeighbors, DecisionTree, SVC  
-make_scorer, roc_auc_score
-Помимо импорта библиотек были использованы такие функции, как:  
+make_scorer, roc_auc_score  
+## Используемые функции:  
 * analiz - для вывода различной информации о таблице
+* optimize_memory_usage - для оптимизации числовых типов данных
+* numbers_plot - функция для построения гистограмм и ящиков с усами для каждого признака
+* kategory_col - для зображения категориальных признаков в виде столбчатых диаграмм
+* smape - для создания новой метрики
+* best_model - при передаче трех датафреймов находит лучшую модель и считает метрику (пайплайн)
 
 ## 
