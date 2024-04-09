@@ -8,3 +8,13 @@ https://github.com/5Misha/My-Skills/tree/main/Выбор_локации_сква
 - Бюджет на разработку скважин в регионе — 10 млрд рублей.
 - При нынешних ценах один баррель сырья приносит 450 рублей дохода. Доход с каждой единицы продукта составляет 450 тыс. рублей, поскольку объём указан в тысячах баррелей.
 - После оценки рисков нужно оставить лишь те регионы, в которых вероятность убытков меньше 2.5%. Среди них выбирают регион с наибольшей средней прибылью.
+
+## Используемые библиотеки
+import pandas as pd  
+import numpy as np  
+import seaborn as sns  
+import matplotlib.pyplot as plt  
+from sklearn.linear_model import LinearRegression  
+from sklearn.model_selection import train_test_split  
+from sklearn.preprocessing import StandardScaler  
+from sklearn.metrics import mean_squared_error
