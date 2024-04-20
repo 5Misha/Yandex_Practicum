@@ -16,9 +16,6 @@ from sklearn.tree import DecisionTreeRegressor
 from lightgbm import LGBMRegressor  
 from sklearn.model_selection import TimeSeriesSplit
 
-## Используемые функции 
-make_features(taxi, max_lag, rolling_mean_size) - функция создания признаков для обучения моделей и решения задачи временных рядов
-
 ## Общий вывод
 У нас получилось подобрать и обучить лучшую модель для предсказания количества клиентов на ближайшие часы, которые вызовут такси в аэропорт по прилете. Для этого мы разбили проект на шаги:
 
