@@ -5,9 +5,9 @@ https://github.com/5Misha/Yandex_Practicum/blob/main/Температура_сп
 Найти лучшую модель для предсказания конечной температуры сплава, чтобы уменьшить расходы энергии у металлургического комбината «Стальная птица».
 
 ## Используемые инструменты
-os, pandas, numpy, seaborn, matplotlib.pyplot, phik
-train_test_split, GridSearchCV
-MinMaxScaler, mean_absolute_error, DummyRegressor
+os, pandas, numpy, seaborn, matplotlib.pyplot, phik  
+train_test_split, GridSearchCV  
+MinMaxScaler, mean_absolute_error, DummyRegressor  
 LinearRegression, DecisionTreeRegressor, LGBMRegressor, SVC
 
 ## Основные этапы проекта
